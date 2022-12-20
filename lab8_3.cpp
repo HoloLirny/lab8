@@ -2,7 +2,14 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	for(int i=1;i<=27;i++){
+		if(x=='A'+i){
+			return x-1;
+		}else if(x=='A'){
+			return 'Z';
+		}
+	}
+	return '0';
 }
 
 int main(){
