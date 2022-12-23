@@ -25,6 +25,6 @@ int main() {
     cout<<n1<<": ";
     cin.ignore();
     cout<<"Fahsai: 555+ see you "<<n3<<". Bye Bye \\(^ ^)/";
-    return 0;
+    
 }
 
